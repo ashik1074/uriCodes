@@ -6,3 +6,4 @@
      printf("X = %d\n",X);
     	return 0;
     }
+ 

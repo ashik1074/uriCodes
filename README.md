@@ -1,2 +1,2 @@
 # uriCodes
-Collection of solution to all the URI beginner problems
+Collection of solution to some of the the URI beginner problems solved by me

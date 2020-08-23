@@ -1,0 +1,46 @@
+#include<stdio.h>
+int main()
+{
+    int total,i,c1=0,c2=0,c3=0,c4=0,c5=0,c6=0,c7=0;
+    scanf("%d",&total);
+    printf("%d\n",total);
+    for(i=1;i<=1000000;i++){
+        if(total>=100){
+            total=total-100;
+            c1++;
+        }
+        else if(total>=50){
+        total=total-50;
+        c2++;
+        }
+        else if(total>=20){
+        total=total-20;
+        c3++;
+        }
+        else if(total>=10){
+        total=total-10;
+        c4++;
+        }
+        else if(total>=5){
+        total=total-5;
+        c5++;
+        }
+        else if(total>=2){
+        total=total-2;
+        c6++;
+        }
+        else if(total>=1){
+        total=total-1;
+        c7++;
+        break;
+        }
+    }
+    printf("%d nota(s) de R$ 100,00\n",c1);
+    printf("%d nota(s) de R$ 50,00\n",c2);
+    printf("%d nota(s) de R$ 20,00\n",c3);
+    printf("%d nota(s) de R$ 10,00\n",c4);
+    printf("%d nota(s) de R$ 5,00\n",c5);
+    printf("%d nota(s) de R$ 2,00\n",c6);
+    printf("%d nota(s) de R$ 1,00\n",c7);
+    return 0;
+}

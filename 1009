@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	string name;
+	double salary,bonus,sell,total;
+	cin>>name;
+	cin>>salary;
+	cin>>sell;
+	bonus=(15*sell)/100;
+	total=salary+bonus;
+	printf("TOTAL = R$ %.2lf\n",total);
+	// your code goes here
+	return 0;
+}

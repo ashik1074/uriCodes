@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int N,H=0,M=0;
+    scanf("%d",&N);
+        if(N>=3600){
+            H=N/3600;
+            N=N%3600;
+            M=N/60;
+            N=N%60;
+        }
+        else if(N<3600 && N>=60){
+            M=N/60;
+            N=N%60;
+            //c2++;
+        }
+    printf("%d:%d:%d\n",H,M,N);
+    return 0;
+}

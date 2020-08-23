@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int NUMBER,HOUR;
+double SALARY,TOTAL;
+scanf("%d",&NUMBER);
+scanf("%d",&HOUR);
+scanf("%lf",&SALARY);
+TOTAL=(HOUR*1.0)*SALARY;
+printf("NUMBER = %d\n",NUMBER);
+printf("SALARY = U$ %.2lf\n",TOTAL);
+return 0;
+}

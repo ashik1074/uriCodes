@@ -1,0 +1,21 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+	double a,b,c,R1,R2,x;
+	scanf("%lf",&a);
+	scanf("%lf",&b);
+	scanf("%lf",&c);
+	x = ((b*b)-(4*a*c));
+	if(a!=0 && x>=0){
+	R1 = (-b+sqrt(x))/(2*a);
+	R2 = (-b-sqrt(x))/(2*a);
+	printf("R1 = %.5lf\n",R1);
+	printf("R2 = %.5lf\n",R2);
+	}
+	else{
+		printf("Impossivel calcular\n");
+	}
+	return 0;
+}
